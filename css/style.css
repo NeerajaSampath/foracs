@@ -6,7 +6,10 @@
     font-family: 'ProximaNovaRg';
     src: url('../fonts/ProximaNova-Regular.ttf');
 }
-
+@font-face {
+    font-family: 'Ilisar-light';
+    src: url('../fonts/Ilisarniq-Regular.ttf');
+  }
 
 
 header{
@@ -270,4 +273,86 @@ footer .flex-div > div{
 }
 footer .flex-div > div:nth-child(2) img{
     width : 20%;
+}
+.iframe-div iframe{
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    border-radius: 3.25px;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 5%);
+}
+.iframe-div{
+    text-align: center;
+    width: 96%;
+    height: 92vh;
+    background: rgba(242, 242, 242, 0.5);
+    border-radius: 10px;
+    padding: 40px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin : 20px auto;
+}
+.zoom-div{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background: rgba(53, 128, 255, 0.1);
+    border-radius: 5px;
+    /* width: 125px; */
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.zoom-div p{
+    margin: 0;
+    margin-left: 5px;
+    font-family: 'Ilisar-light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #151515;
+}
+.pre-header{
+    padding: 10px 0;
+    background: linear-gradient(48.62deg, rgba(242, 242, 242, 0.4) -5.21%, rgba(242, 242, 242, 0.3) 58.33%, rgba(242, 242, 242, 0.4) 99.79%);
+}
+.pre-header p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.1px;
+    line-height: 8px;
+    display: flex;
+    align-items: center;
+    color: #151515;
+    margin: 0;
+}
+.pre-header p a{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 7.8px;
+line-height: 11px;
+/* identical to box height */
+text-align: right;
+text-transform: capitalize;
+color: #3580FF;
+}
+.pre-header .flex-div > div{
+    height : auto;
+}
+.pre-header .flex-div > div:nth-child(2) p{
+    display: block;
+    text-align: right;
+    margin: 0;
+}
+.pre-header .flex-div{
+    align-items: center;
 }
