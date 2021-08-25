@@ -5,10 +5,10 @@
 
 
 header{
-    padding : 30px 0;
+    padding : 10px 0;
 }
 .custom-container{
-    width: 900px;
+    width: 97%;
 }
 .flex-div{
     display: flex;
@@ -16,13 +16,13 @@ header{
 }
 .flex-div > div{
     width: 50%;
-    height : 100px;
+    height : 20px;
 }
 .flex-div > div:nth-child(2){
     text-align: right;
 }
 .flex-div > div img{
-    width: 56%;
+    width: 48%;
 }
 .flex-div > div:nth-child(2) img{
     width: 30%;
@@ -32,21 +32,21 @@ header{
 48.62deg
 , rgba(242, 242, 242, 0.4) -5.21%, rgba(242, 242, 242, 0.3) 58.33%, rgba(242, 242, 242, 0.4) 99.79%);
     border-radius: 3px;
-    padding: 20px 20px 60px;
+    padding: 20px 15px 20px;
     text-align: center;
     position: relative;
+    margin-top: 10px;
 }
 .flex{
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
 }
 .flex > div:nth-child(1){
     width: 40%;
-    height: 200px;
+    height: 62px;
 }
 .flex > div img{
-    width : 71%;
+    width : 85%;
 }
 .flex > div:nth-child(2){
     width: 60%;
@@ -57,16 +57,17 @@ header{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 10px;
     line-height: 16px;
     /* text-align: center; */
     color: #373844;
+    margin: 0;
 }
 .h2-pay span{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 10px;
     line-height: 22px;
     margin-left: 5px;
     color: #2DAFE6;
@@ -75,17 +76,16 @@ header{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 10px;
     line-height: 16px;
     color: #373844;
-    margin-top: 28px;
+    margin-top: 0;
 }
 .otp-sent{
-    padding-top: 40px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 8px;
     line-height: normal;
     text-align: center;
     color: #373844;
@@ -94,42 +94,43 @@ header{
     background: #FFFFFF;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
-    border-radius: 7px;
+    border-radius: 3px;
     padding: 5px;
-    height: 70px;
-    margin: 20px 0;
-    width: 33%;
+    height: 23px;
+    margin: 0px 0 4px;
+    width: 50%;
 }
 .opt-div p{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 14px;
+    font-size: 8px;
+    line-height: normal;
     text-align: center;
     color: #3580FF;
+    margin: 0;
 }
 .verify{
     background: linear-gradient( 
     180deg
     , #619BFF 0%, #3580FF 100%);
-    border-radius: 40px;
+    border-radius: 25px;
     color: #fff;
     position: absolute;
-    bottom: -30px;
-    left: 26%;
+    bottom: -11px;
+    left: 18%;
     /* right: 0; */
-    width: 47%;
-    padding: 20px;
+    width: 62%;
+    padding: 5px;
     box-shadow: unset;
     border: unset;
-    font-size: 25px;
+    font-size: 10px;
 }
 .pad50{
-    padding: 50px 0;
+    padding: 10px 0;
 }
 .width-47{
-    width: 47%;
+    width: 54%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -138,7 +139,7 @@ header{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 8px;
     line-height: 19px;
     text-align: right;
     color: #3580FF;
@@ -148,8 +149,8 @@ header{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 21px;
+    font-size: 8px;
+    line-height: normal;
     display: flex;
     align-items: center;
     color: #3580FF;
@@ -159,7 +160,7 @@ header{
 .container-label {
     display: block;
     position: relative;
-    padding-left: 35px;
+    padding-left: 17px;
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
@@ -179,12 +180,12 @@ header{
   /* Create a custom radio button */
   .checkmark {
     position: absolute;
-    top: 0;
+    top: 2px;
     left: 0;
-    height: 25px;
-    width: 25px;
-    border: 2px solid #D2D2D2;
-    border-radius: 5px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #D2D2D2;
+    border-radius: 2px;
   }
   
   /* On mouse-over, add a grey background color */
@@ -211,10 +212,10 @@ header{
   
   /* Style the indicator (dot/circle) */
   .container-label .checkmark:after {
-    top: 6px;
-    left: 7px;
-    width: 8px;
-    height: 8px;
+    top: 2.49px;
+    left: 2.6px;
+    width: 3px;
+    height: 3px;
     border-radius: 50%;
     background: white;
   }
@@ -225,15 +226,16 @@ header{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 8px;
+    line-height: normal;
     color: #373844;
+  
 }
-.ratio-btn{
+/* .ratio-btn{
     padding-top: 40px;
-}
+} */
 footer{
-    padding: 20px 0;
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -241,7 +243,7 @@ footer{
     width: 100%;
 }
 footer .flex-div > div img{
-    width: 50px;
+    width: 15px;
 }
 .copy-para{
     display: inline-block;
@@ -251,7 +253,7 @@ footer .flex-div > div img{
     font-family: Proxima Nova;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 4px;
     text-align: justify;
     color: #273A49;
 }
