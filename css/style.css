@@ -263,6 +263,7 @@ footer .flex-div > div img{
     font-size: 4px;
     text-align: justify;
     color: #273A49;
+    padding-top: 3px;
 }
 footer .flex-div > div{
     height : auto;
