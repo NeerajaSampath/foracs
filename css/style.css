@@ -373,9 +373,9 @@ color: #3580FF;
     color: #3580FF;
 }
 .dark-mode {
-    background: url('../images/dark-bg.svg');
+    background: url('../images/dark-img.png');
     background-position: center;
-    background-size: auto;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   .dark-mode header{
