@@ -228,9 +228,6 @@ header{
     border-radius: 50%;
     background: white;
   }
-
-
-
 .ratio-btn label{
     font-family: 'Open Sans';
     font-style: normal;
@@ -239,34 +236,38 @@ header{
     line-height: 12px;
     color: #373844;
     margin-bottom: 3px;
-  
 }
-/* .ratio-btn{
-    padding-top: 40px;
-} */
 footer{
-    padding: 10px 0;
+    padding: 5px 0;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
+    background: linear-gradient(
+48.62deg
+, rgba(242, 242, 242, 0.4) -5.21%, rgba(242, 242, 242, 0.3) 58.33%, rgba(242, 242, 242, 0.4) 99.79%);
 }
 footer .flex-div > div img{
-    width: 15px;
+    width: 30px;
+}
+.pcy-div{
+    width: 20% !important;
+    text-align: right;
+}
+.copy-div{
+    text-align: left !important;
 }
 .copy-para{
-    display: inline-block;
     margin: 0;
-    line-height: normal;
     vertical-align: middle;
     font-family: 'ProximaNovaRg';
     font-style: normal;
     font-weight: normal;
-    font-size: 4px;
+    font-size: 2.6px;
     text-align: justify;
     color: #273A49;
-    padding-top: 3px;
+    padding-top: 0;
 }
 footer .flex-div > div{
     height : auto;
@@ -337,7 +338,7 @@ footer .flex-div > div:nth-child(2) img{
 .pre-header p a{
     font-family: Open Sans;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 7.8px;
 line-height: 11px;
 /* identical to box height */
@@ -355,4 +356,72 @@ color: #3580FF;
 }
 .pre-header .flex-div{
     align-items: center;
+}
+.need-help{
+    width : 80% !important;
+}
+.need-help p{
+    margin: 0;
+}
+.need-help p a{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.8px;
+    line-height: 8px;
+    align-items: center;
+    color: #3580FF;
+}
+.dark-mode {
+    background: url('../images/dark-bg.svg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  .dark-mode header{
+    background: #F2F2F2;
+  }
+.dark-mode .bg-gray{
+    background: transparent;
+}
+.dark-mode .h2-pay, .dark-mode .h2-pay span, .dark-mode .pay-text p, .dark-mode .otp-sent, .dark-mode .ratio-btn label{
+    color: #F5F3F4;
+}
+.dark-mode .opt-input{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1.95px;
+    border: unset;
+}
+.dark-mode .verify{
+    background: #FF2C55;
+}
+.dark-mode footer{
+    background: #F5F3F4;
+}
+.dark-mode .copy-para{
+    color: #151515;
+}
+.dark-div{
+    text-align: center;
+}
+.dark-div button{
+    font-size: 9px;
+    color: #fff;
+}
+.dark-div{
+    text-align: center;
+}
+.dark-div button{
+    font-size: 7px;
+    color: #fff;
+    background: #151515;
+    box-shadow: unset;
+    border: unset;
+    padding: 3px 11px;
+}
+.dark-mode .pre-header p, .dark-mode .pre-header p a{
+    color: #fff;
+}
+button:focus{
+    outline: none;
 }
