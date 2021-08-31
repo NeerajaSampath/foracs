@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<title>iframe without src attribute</title>
+
+<!-- <script type="text/javascript">
+    function onTryItClick() {
+        var content = document.getElementById("iframecontent").innerHTML;
+        var iframe = document.getElementById("myiframeid");
+
+        var frameDoc = iframe.document;
+        if (iframe.contentWindow)
+            frameDoc = iframe.contentWindow.document;
+
+        frameDoc.open();
+        frameDoc.writeln(content);
+        frameDoc.close();
+    }
+</script> -->
+</head>
+<body>
+    <div id="ppp">
+        <script type="text/javascript">
+        var iframeOMid= 'OM300x250'+Math.round(Math.random()*(10000-1))+1; // create multi unique iframe
+        var iframeOM = document.createElement("IFRAME");
+          iframeOM.id = iframeOMid;
+          iframeOM.src = "about:blank";
+          iframeOM.style.width="300px";
+          iframeOM.style.height="250px";
+          iframeOM.style.border="0";
+          iframeOM.scrolling="no";
+          iframeOM.margin="0";
+          iframeOM.frameborder="0";
+        
+        document.body.appendChild(iframeOM); // this can not apply to curent div
+        
+        var contentOM = '<html><body style="margin:0;padding:0;">dsfsdf<scr'+'ipt type="text/javascript">var abcd;</scr'+'ipt></body></html>';
+        
+        var doc = iframeOM.contentWindow.document; doc.open(); doc.writeln(contentOM); doc.close(); 
+        </script>
+        </div>
+
+</body>
+</html>

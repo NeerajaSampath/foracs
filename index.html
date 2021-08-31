@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body class="cnb">
         <div class="pre-header">
             <div class="container custom-container">
                 <div class="flex-div">
@@ -39,10 +39,11 @@
                 <div class="bg-gray">
                     <div class="flex">
                         <div class="">
-                            <img src="images/phoneicon.png" alt="phone-icon" />
+                            <img src="images/phone-icon2.png" alt="phone-icon" />
                         </div>
                         <div class="pay-text">
-                            <h2 class="h2-pay">PAY<span>₹6599</span></h2>
+                            <h2 class="h2-pay">Make payment of</h2>
+                            <span>₹6599</span>
                             <p>Reebok India</p>
                         </div>
                     </div>
@@ -50,31 +51,34 @@
                     <form action="">
                         <div class="opt-div">
                             <input type="number" class="opt-input" name="otp" required />
-                            <a href="#"><p>Resend OTP</p></a>
+                            <p><a href="#">Resend OTP</a></p>
                         </div>
                         <input type="Submit" value="Verify" class="verify" />
                     </form>
+                    <div class="width-47">
+                        <p>Use Swipe to Pay</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="pad50">
             <div class="container custom-container">
-                <div class="width-47">
-                    <p><a href="#">Cancel</a></p>
-                    <p><a href="#">Use Swipe to Pay</a></p>
-                </div>
+                
                 <div class="ratio-btn">
                     <form action="">
-                        <label class="container-label">Turn on Seamless Pay to skip OTP
-                            <input type="radio" name="radio" />
-                            <span class="checkmark"></span>
-                        </label>
+                        <label class="custom-checkbox">
+                            Turn on Seamless Pay to skip OTP validation process without compromising on security
+                            <input type="checkbox">
+                            <span></span>
+                          </label>
+                        
                     </form>
                 </div>
-                <a class="know-more" href="#">Know more</a>
             </div>
         </section>
-        
+        <!-- <div style="text-align : center;" class="dark-div">
+            <button onclick="myFunction()">Dark Mode On</button>
+        </div> -->
         <footer>
             <div class="container custom-container">
                 <div class="flex-div">
@@ -91,6 +95,11 @@
                 </div>
             </div>
         </footer>
-       
+        <!-- <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+            </script> -->
     </body>
 </html>
